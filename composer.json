@@ -1,0 +1,22 @@
+{
+  "name": "shohelrana/baseplugin",
+  "description": "A starter plugin",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Shohel Rana",
+      "email": "shohelrrrana@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "BasePlugin\\": "includes"
+    },
+    "files": [
+      "includes/functions.php"
+    ]
+  }
+}
