@@ -22,7 +22,7 @@ class Assets {
 	public function get_styles () {
 		return [
 			'academy-style' => [
-				'src'     => BasePLugin_ASSETS_URL . '/css/frontend.css',
+				'src'     => BASEPLUGIN_ASSETS_URL . '/css/frontend.css',
 				'version' => filemtime( BASEPLUGIN_PATH . '/assets/css/frontend.css' )
 			]
 		];
@@ -35,7 +35,7 @@ class Assets {
 	public function get_scripts () {
 		return [
 			'academy-script' => [
-				'src'     => BasePLugin_ASSETS_URL . '/js/frontend.js',
+				'src'     => BASEPLUGIN_ASSETS_URL . '/js/frontend.js',
 				'version' => filemtime( BASEPLUGIN_PATH . '/assets/js/frontend.js' ),
 				'deps'    => [],
 			]
