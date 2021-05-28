@@ -10,7 +10,7 @@
  * Author URI:        https://github.com/shohelrrrana
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       wp-starter-plugin
+ * Text Domain:       baseplugin
  * Domain Path:       /languages
  * */
 

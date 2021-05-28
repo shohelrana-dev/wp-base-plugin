@@ -10,7 +10,7 @@ class Shortcode {
 	 * Shortcode constructor.
 	 */
 	public function __construct () {
-		add_shortcode( 'wp-starter-plugin', [ $this, 'render_shortcode' ] );
+		add_shortcode( 'baseplugin', [ $this, 'render_shortcode' ] );
 	}
 
 	/**
