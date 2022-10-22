@@ -98,5 +98,5 @@ function base_plugin_run () {
 	return BasePlugin::init();
 }
 
-//Kick off the plugin
+//Init the plugin
 base_plugin_run();
